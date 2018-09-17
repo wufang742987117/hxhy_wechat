@@ -1,0 +1,640 @@
+@charset "utf-8";
+/*   登录页面开始*/
+.head_box {
+  width: 100%;
+  height: 13.4rem;
+  background: url(../../images/n_images/dl_1.jpg) left top no-repeat;
+  background-size: cover;
+  font-family: Microsoft YaHei;
+}
+
+.h_title {
+  height: 1.75rem;
+  padding: 0 0.675rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+  line-height: 1.75rem;
+  text-align: center;
+  position: relative;
+}
+
+.lp_k p {
+  float: left;
+  width: 48%;
+  text-align: center;
+  margin: 0.125rem 0;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  font-size: 0.65rem;
+  color: #6E6E6E;
+}
+
+.lp_k .qy_text {
+  width: 100%;
+}
+
+.yzm_but {
+  float: right;
+  height: 100%;
+  font-size: 0.5rem;
+  color: #D5C390;
+}
+
+.h_fh {
+  width: 0.45rem;
+  height: 0.775rem;
+  line-height: 0;
+  position: absolute;
+  left: 0.675rem;
+  top: 0.375rem
+}
+
+.h_zc {
+  line-height: 1.75rem;
+  font-size: 0.65rem;
+  position: absolute;
+  right: 0.675rem;
+  top: 0;
+}
+
+.h_logo {
+  text-align: center;
+}
+
+.logo_img {
+  width: 4.2rem;
+  height: 4.2rem;
+  border: 0.125rem solid #fff;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 1.3rem auto 0 auto;
+  overflow: hidden;
+}
+
+.jqqd_text {
+  text-align: center;
+  height: 7.5rem;
+  line-height: 7.5rem;
+  color: #ccc;
+  font-size: 1.25rem;
+}
+
+.jqqd_text1 {
+  text-align: center;
+  padding: 3rem 0;
+  line-height: 2rem;
+  color: #ccc;
+  font-size: 1.25rem;
+}
+
+/*  登录框*/
+.f_dl {
+  width: 17.75rem;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  border-radius: 0.25rem;
+  box-shadow: #D9C797 0 0 0.5rem;
+  position: relative;
+  background-color: #fff;
+  bottom: 3.0rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: .5rem;
+}
+
+.f_dl_a {
+  bottom: 0;
+}
+
+.dl_list {
+  padding: 0.875rem 2.0rem;
+  font-size: 0.7rem;
+  line-height: 2.15rem;
+}
+
+.dl_list p {
+  border-bottom: 1px solid #EFEFEF;
+
+}
+
+.dl_list em {
+  text-align: center;
+  display: inline-block;
+  width: 3rem;
+}
+
+.dl_list i {
+  display: inline-block;
+  width: 0.575rem;
+  height: 0.7rem;
+  line-height: 0;
+  vertical-align: middle;
+  margin-right: 0.6rem;
+}
+
+.dl_list input {
+  margin-left: 0.5rem;
+  border: none;
+  font-size: 0.65rem;
+  width: 7.5rem;
+}
+
+.dl_mm {
+  padding: 0 2rem;
+  font-size: 0.6rem;
+  line-height: 2.6rem;
+}
+
+.dl_mm input {
+  margin-right: 0.6rem;
+  vertical-align: middle;
+}
+
+.but {
+  display: block;
+  width: 17.75rem;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  text-align: center;
+  margin: 1.0rem auto;
+  background: linear-gradient(to right, #D5C390 0%, #EEE0BD 100%);
+  font-size: 0.75rem;
+  border-radius: 0.3rem;
+}
+
+.pt {
+  position: relative;
+  bottom: 3rem;
+}
+
+.f_logo {
+  width: 9.525rem;
+  height: 0.7rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0.75rem;
+  margin-left: -4.75rem;
+}
+
+/*   登录页面完成*/
+/*代理商用户中心*/
+.h_zc_l {
+  width: 0.65rem;
+  height: 0.775rem;
+}
+
+.h_logo p {
+  line-height: 1.55rem;
+  font-size: 0.75rem;
+  color: #333333;
+}
+
+.name_list {
+  margin-top: 20px;
+  font-size: 0.7rem;
+  color: #333333;
+  text-align: center;
+  padding-left: 3.25rem;
+}
+
+.name_list span {
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+.zl_list, .sy_jl, .list_1, .sy_jl_a, .sy_jl_1, .sy_jl_b {
+  padding: 0 0.95rem;
+}
+
+.zl_list li, .list_1 li {
+  line-height: 2.325rem;
+  /*height: 2.325rem;*/
+  border-bottom: 1px solid #F4F4F4;
+  font-size: 0.65rem;
+  font-weight: bold;
+	position: relative;
+}
+
+.zl_list li button {
+	
+}
+
+.zl_list span {
+  float: right;
+  font-weight: normal;
+}
+
+.zl_list b {
+  display: inline-block;
+  /*width: 30%;*/
+  text-align: right;
+}
+
+/*   代理用户中心*/
+.s_s {
+  width: 49%;
+  text-align: center;
+  margin: 0.825rem 0;
+  line-height: 1.9rem;
+  font-size: 0.8rem;
+}
+
+.s_s span {
+  display: inline-block;
+  width: 1.9rem;
+  height: 1.9rem;
+  vertical-align: middle;
+}
+
+.br {
+  border-right: 1px solid #EDE6D0;
+}
+
+.zl_list i {
+  float: left;
+  width: 1.05rem;
+  height: 1.05rem;
+  margin-right: 0.6rem;
+  line-height: 0;
+  margin-top: 0.65rem;
+}
+
+.zl_list em {
+  width: 0.25rem;
+  height: 0.5rem;
+  float: right;
+  font-weight: normal;
+  line-height: 0;
+  margin-top: 0.95rem;
+}
+
+/*    代理商收益统计*/
+.h_tx {
+  height: 2.15rem;
+  width: 2.15rem;
+  margin: 0.75rem 0.35rem 0.75rem 0.5rem;
+  border: 0.125rem solid #fff;
+  border-radius: 50%;
+  box-shadow: #D8D8D8 0 0.125rem 0.5rem;
+  overflow: hidden;
+}
+
+.h_zl {
+  margin: 1.075rem 0;
+}
+
+.h_tj, .h_tj3 {
+  height: 1.0rem;
+  line-height: 1.0rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.h_tj2 {
+  height: 1.0rem;
+  line-height: 1.0rem;
+  font-size: 0.55rem;
+  color: #B2B2B2;
+}
+
+.h_tj2 i {
+  display: inline-block;
+  width: 0.65rem;
+  height: 0.55rem;
+}
+
+.h_zl2 {
+  margin-right: 0.75rem;
+  text-align: center;
+}
+
+.h_tj3 {
+  color: #AD7B56;
+}
+
+.sy_jl {
+  height: 2.4rem;
+  line-height: 2.4rem;
+  font-size: 0.65rem;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.sy_jl select {
+  border: none;
+  color: #787878;
+  margin-left: 0.875rem;
+}
+
+.list_1 li {
+  font-weight: normal;
+  font-size: 0.5rem;
+  color: #666666;
+}
+
+.list_1 strong {
+  float: right;
+  color: #AD7B56;
+  font-size: 0.6rem;
+}
+
+.list_1 i {
+  color: #2A2A2A;
+  float: right;
+  font-size: 0.65rem;
+}
+
+.ck_gd {
+  text-align: center;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  font-size: 0.55rem;
+  color: #D5D5D5;
+}
+
+.ck_gd span {
+  display: inline-block;
+  width: 0.55rem;
+  height: 0.5rem;
+  margin-left: 0.3rem;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+.lp_k {
+  border-top: 1px solid #EEEEEE;
+}
+
+.lp_k p {
+  float: left;
+  width: 48%;
+  text-align: center;
+  margin: 0.125rem 0;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  font-size: 0.65rem;
+  color: #6E6E6E;
+}
+
+.lp_k span {
+  font-weight: bold;
+  color: #000;
+  margin-right: 0.125rem;
+}
+
+.lp_k select {
+  border: none;
+}
+
+.xf_text {
+  padding: 0.5rem 0.875rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  font-size: 0.65rem;
+}
+
+.xf_text i {
+  color: #FF1C1C;
+  margin: 0 0.25rem;
+}
+
+.but2 {
+  float: right;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  padding: 0 1.25rem;
+  color: #fff;
+  background: linear-gradient(to right, #D5C390 0%, #EEE0BD 100%);
+  border-radius: 0.125rem;
+}
+
+.ts_text {
+  width: 17.75rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  color: #D5D5D5;
+  margin-bottom: 2.75rem;
+  line-height: 1;
+}
+
+.ts_text span {
+  display: inline-block;
+  width: 0.65rem;
+  height: 0.6rem;
+  margin: 0 0.4rem;
+  vertical-align: top;
+}
+
+.sy_jl_1 {
+  padding-top: 0.5rem;
+  line-height: 1.4rem;
+  height: 1.4rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.sy_jl_a {
+  height: 1.3rem;
+  line-height: 1.3rem;
+  font-size: 0.65rem;
+  color: #D5BB74;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+.sy_jl_b {
+  height: 1.3rem;
+  line-height: 1.3rem;
+  font-size: 0.65rem;
+  color: #D5BB74;
+  padding-bottom: 1.25rem;
+}
+
+.d_list {
+  margin: 0.25rem 0.85rem;
+  border-left: 0.1rem solid;
+  border-image: linear-gradient(#F0E3C1, #D4C18E) 1 1;
+}
+
+.d_list dd {
+  line-height: 1.7rem;
+  height: 1.7rem;
+  font-size: 0.7rem;
+  padding-left: 0.85rem;
+  position: relative;
+}
+
+.d_list dd span {
+  position: absolute;
+  width: 0.4rem;
+  height: 0.4rem;
+  left: -0.25rem;
+  top: 50%;
+  margin-top: -0.2rem;
+  line-height: 0;
+}
+
+.f_dl_a .bbn {
+  border-bottom: none;
+}
+
+.n1 input, .n2 input {
+  padding: 0 0.5rem;
+  width: 4rem;
+  text-align: center;
+}
+
+.xb label {
+  margin-right: 0.8rem;
+}
+
+.tx_input {
+  margin-left: 0.5rem;
+  padding: 0 0.4rem;
+  width: 3.5rem;
+  border: 1px solid #cecece;
+}
+
+.tj_list strong {
+  color: red;
+}
+
+.tj_text {
+  line-height: 2.325rem;
+  height: 2.325rem;
+  font-size: 0.7rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.n3 {
+  width: 50%;
+}
+
+.n3 input, .n3 select {
+  padding: 0.2rem 0.2rem;
+  border: 1px solid #868695;
+  font-size: 0.65rem;
+  width: 90%;
+  border-radius: 0.2rem;
+}
+
+.n3 select {
+  width: 95%;
+}
+
+.list_1 .list_lb {
+  color: #000;
+  font-weight: bold;
+}
+
+.list_lb div {
+  float: left;
+  margin: 0.15rem;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.list_1 .list_lb strong {
+  color: #ccc;
+  font-weight: normal;
+}
+
+.but_box {
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.but3 {
+  display: inline-block;
+  width: 7rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  margin: 1.0rem auto;
+  background: linear-gradient(to right, #D5C390 0%, #EEE0BD 100%);
+  font-size: 0.75rem;
+  border-radius: 0.3rem;
+  margin: 0 0.4rem;
+}
+
+.sc_file {
+  width: 50%;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  margin: 0.25rem auto;
+  border-radius: 0.3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.sc_file label {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(to right, #D5C390 0%, #EEE0BD 100%);
+  font-size: 0.75rem;
+}
+
+.wj_img {
+  margin: 0.25rem 0.95rem;
+  text-align: center;
+}
+
+.mb_list {
+  padding: 0.15rem;
+}
+
+.mb_list li {
+  float: left;
+  width: 40%;
+  padding: 0 5%;
+  text-align: center;
+}
+
+.mb_list div {
+  width: 100%;
+  height: 8rem;
+}
+
+.mb_list p {
+  line-height: 1.5rem;
+  height: 1.5rem;
+  font-size: 0.6rem;
+}
+
+.cx_time {
+  height: 2.25rem;
+  line-height: 2.25rem;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.cx_time input {
+  padding: 0.25rem;
+  margin: 0 0.25rem;
+  width: 35%;
+  border: 1px solid #ccc;
+  border-radius: 0.125rem;
+  text-align: center;
+}
+
+.input-search {
+  width: 17.75rem;
+  margin: 0 auto .75rem;
+}
+.input-search input {
+  padding: 0.2rem 0.2rem;
+  border: 1px solid #868695;
+  font-size: 0.65rem;
+  border-radius: 0.2rem;
+}
+
+.btn_box {
+  margin: 1rem 0;
+}
